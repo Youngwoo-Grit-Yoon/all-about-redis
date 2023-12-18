@@ -30,6 +30,7 @@ port 6379
 ```text
 $ docker run -v /Users/youngwooyoon/YYW/Docker/redis:/usr/local/etc/redis \
 -d \
+-p 6379:6379 \
 --name redis \
 redis redis-server /usr/local/etc/redis/redis.conf
 ```
